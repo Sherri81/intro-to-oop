@@ -6,7 +6,7 @@ $dsn = "mysql:
         charset=utf8;
         port=3306";
 
-$pdo = new PDO($dsn, "adv_php_user", "secret", [
+$pdo = new PDO($dsn, "adv_php_user", "QnepmMdV", [
   PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 ]);
 
